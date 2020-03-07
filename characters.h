@@ -1,0 +1,56 @@
+#ifndef CHARACTERS_H_INCLUDED
+#define CHARACTERS_H_INCLUDED
+
+byte dog[8] = {
+  B00000, B01000, B00110, B00101, B10111, B01110, B01110, B01010
+};
+
+byte dog_move[8] = {
+  B00000, B01000, B00110, B00101, B10111, B01110, B01110, B10001
+};
+
+byte fence[8] = {
+  B00000,
+  B00000,
+  B00000,
+  B10101,
+  B11111,
+  B10101,
+  B10101,
+  B10101
+};
+
+byte bird[8] = {
+  B00000,
+  B00000,
+  B01010,
+  B10111,
+  B01010,
+  B00000,
+  B00000,
+  B00000
+};
+
+byte emptyHeart[8] = {
+  B00000,
+  B00000,
+  B00000,
+  B01010,
+  B10101,
+  B10001,
+  B01010,
+  B00100
+};
+
+byte fullHeart[8] = {
+  B00000,
+  B00000,
+  B00000,
+  B01010,
+  B11111,
+  B11111,
+  B01110,
+  B00100
+};
+
+#endif // CHARACTERS_H_INCLUDED
